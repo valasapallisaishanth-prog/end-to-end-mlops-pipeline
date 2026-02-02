@@ -73,7 +73,7 @@ Clients / Applications
 | Notebook / Cloud    | Google Colab                       |
 | Optional Tunneling  | Ngrok (requires account)           |
 
-Setup Instructions
+**Setup Instructions**
 
 Clone the repository:
 
@@ -81,19 +81,19 @@ git clone https://github.com/<your-username>/end-to-end-mlops-pipeline.git
 cd end-to-end-mlops-pipeline
 
 
-Install dependencies:
+**Install dependencies:**
 
 pip install -r requirements.txt
 
 
-Dataset & DVC:
+**Dataset & DVC:**
 
 dvc pull data/raw/diabetes.csv.dvc
 
 
 Run the notebook end_to_end_ml_pipeline_dvc_mlflow_fastapi.ipynb in Colab.
 
-MLflow Experiments
+**MLflow Experiments**
 
 Models, metrics, and parameters are tracked using MLflow.
 
@@ -121,7 +121,7 @@ POST /predict
   "data": [2, 120, 70, 20, 79, 25.0, 0.5, 33]
 }
 
-Returns prediction:
+**Returns prediction:**
 {"prediction": 1}
 
 Key Features & Resume Highlights
